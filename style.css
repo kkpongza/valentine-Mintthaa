@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&display=swap');
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main {
+    color: rgb(247, 121, 218);
+    padding-top: 400px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Sacramento', cursive;
+
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.moveButton1Container, .moveButton2Container {
+    padding: 20px;
+}
+
+.moveButton1, .moveButton2 {
+    width: 100px;
+    height: 50px;
+    font-family: 'Sacramento', cursive;
+    font-size: 18px; 
+    color: #fff; 
+    background-color: rgb(122, 125, 223);
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.moveButton1:hover, .moveButton2:hover {
+    background-color: rgb(73, 78, 223);
+}
+
+#escapeButton2 {
+    position: absolute;
+    transition: left 1s ease, top 1s ease;
+}
+
+#yesButton {
+    transition: transform 1s ease;
+}
+
+.image1, .image2, .image3 {
+    width: 500px;
+    height: auto;
+    padding: 30px;
+}
+
+.image1 img , .image2 img, .image3 img{
+    width: 100%; /* Set the image width to fill the container */
+    height: auto;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
